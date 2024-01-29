@@ -1,0 +1,253 @@
+.motorsport .path {
+    padding-right: 1.5vh;
+}
+
+.motorsport .textHead2 {
+    letter-spacing: -0.5vh;
+}
+
+.motorsport .beyondface-1 {
+    background-image: url('./lamborghini/slide_motorsport_01.jpg');
+}
+
+.path {
+    margin-top: 9vh;
+}
+
+.path span {
+    cursor: pointer;
+}
+
+.motorsport .cardgrp {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.motorsport .cardgrp img {
+    height: 27vh;
+    width: auto;
+}
+
+.motorsport .motorNews {
+    margin-top: 20vh;
+    font-weight: bold;
+    padding-bottom: 5vh;
+}
+
+.motorsport .card {
+    border: none;
+    height: 30vh;
+}
+
+.motorsport .card h5 {
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 1.4px;
+    font-weight: 300;
+    margin-left: -2vh;
+}
+
+.motorsport .card p {
+    font-size: 26px;
+    line-height: 31.2px;
+    font-weight: 700;
+    margin-left: -2vh;
+}
+
+.motorsport .card .btn {
+    height: 7vh;
+    width: 30vh;
+    text-align: center;
+    padding-top: 1.5vh;
+    background-color: transparent;
+    border: 1px solid rgb(205, 205, 205);
+    color: black;
+    border-radius: 0%;
+    transition: 0.6s ease;
+    margin-left: -2vh;
+}
+
+.motorsport .card .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.motorsport .squadacorsa {
+    margin-top: 44vh;
+}
+
+
+.motorsport .squadacorsa .head {
+    margin-left: 32vh;
+    margin-top: 30vh;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 34.8px;
+}
+
+.motorsport .squadacorsa p {
+    margin-left: 32vh;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(77, 75, 75);
+}
+
+.sc63 {
+    margin-top: -80vh;
+}
+
+.sc63 .nextgrp img {
+    height: 15vh;
+}
+
+.motorsport .superTrophy {
+    margin-top: 32vh;
+}
+
+.motorsport .superTrophy .revuelto .image {
+    width: 1000px;
+    padding-right: 20vh;
+}
+
+.motorsport .superTrophy .revueltoText img {
+    height: 23vh;
+}
+
+.motorsport .superTrophy .revueltoText {
+    margin-top: -175vh;
+    margin-left: 10px;
+}
+
+.motorsport .superTrophy .huracan {
+    margin-top: -39vh;
+}
+
+.huracan .huracangrp .revuelto2 {
+    margin-top: 74vh;
+    margin-left: -115vh;
+}
+
+.superTrophy .huracan .huracangrp .revuelto2 .parallelogram {
+    clip-path: polygon(45% 0%, 100% 0%, 55% 100%, 0% 100%);
+}
+
+.superTrophy .huracan .huracangrp .revuelto2 {
+    margin-left: -101vh;
+}
+
+.superTrophy .huracan .huracangrp .revuelto {
+    margin-left: -195vh;
+}
+
+.huracan .revuelto .parallelogram {
+    clip-path: polygon(45% 0%, 100% 0%, 60% 100%, 0% 100%);
+}
+
+.superTrophy .huracan .revueltoText {
+    margin-top: -110vh;
+    margin-left: 77vh;
+}
+
+.superTrophy .huracan .revueltoText .head {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 34.8px;
+    padding-bottom: 3vh;
+}
+
+.motorsport .msmodels {
+    margin-top: 186vh;
+}
+
+.motorsport .msmodels .text {
+    padding-bottom: 2vh;
+}
+
+.motorsport .limited .img5 .parallelogram-container {
+    height: 960px;
+    margin-top: -25vh;
+    margin-left: -93vh;
+}
+
+.motorsport .limited .img5 .parallelogram {
+    width: 1480px !important;
+    clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+}
+
+.motorsport .limited .img5 .image {
+    padding-left: 30vh;
+    width: 1460px !important;
+    height: 446px !important;
+    transform: skewX(0deg) !important;
+}
+
+.motorsport .limited .img4 .parallelogram-container {
+    height: 960px;
+    margin-top: 15vh;
+
+}
+
+.motorsport .limited .img4 .parallelogram {
+    margin-left: 67vh;
+    width: 1080px !important;
+    clip-path: polygon(55% 0%, 100% 0%, 33% 100%, 0% 100%);
+}
+
+.motorsport .limited .img4 .image {
+    width: 1160px !important;
+    height: 410px !important;
+    transform: skewX(0deg) !important;
+}
+
+.motorsport .limited .img4 {
+    margin-top: -10vh;
+}
+
+.motorsport .experience {
+    margin-top: -153vh;
+}
+
+.motorsport .experience .head {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 34.8px;
+    padding-bottom: 3vh;
+    margin-top: 16vh;
+}
+
+.motorsport .experience .text {
+    padding-bottom: 3vh;
+}
+
+.motorsport .partners {
+    margin-top: 21.7vh;
+    background-color: rgb(240, 239, 239);
+    height: 70vh;
+}
+
+.motorsport .partners img {
+    height: 32%;
+}
+
+.motorsport .partners .sec {
+    margin-top: -5vh
+}
+
+.motorsport .partners h2 {
+    text-align: center;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+.motorsport .footer {
+    margin-top: -0.1vh;
+}
+
+.motorsport .sideText {
+    margin-top: 10vh;
+}
+
+.sideText .nextIcon {
+    margin-left: 142vh;
+}

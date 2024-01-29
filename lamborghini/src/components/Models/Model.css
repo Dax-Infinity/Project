@@ -1,0 +1,308 @@
+.modelface-1 {
+    background-image: url('./lamborghini/gate_models_og_01.jpg');
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    margin-top: -12vh;
+}
+
+.modelface-1 .face-1text .textHead {
+    font-size: 5vh;
+    margin-top: 4vh;
+}
+
+.modelface-1 .face-1text .textHead2 {
+    font-size: 16vh;
+}
+
+.modelface-1 {
+    padding-top: 7vh;
+}
+
+
+.models .revuelto .parallelogram {
+    margin-left: 242vh !important;
+    width: 1200px !important;
+    clip-path: polygon(45% 0%, 100% 0%, 60% 100%, 0% 100%);
+}
+
+.models .revuelto .image {
+    padding-right: 60vh;
+    width: 1000px !important;
+    height: 496px !important;
+    transform: skewX(0deg) !important;
+}
+
+.revuelto {
+    margin-top: -5vh;
+}
+
+.models .revuelto2 .parallelogram {
+    margin-left: 191vh !important;
+    width: 1250px !important;
+    clip-path: polygon(45% 0%, 100% 0%, 60% 100%, 0% 100%);
+}
+
+.models .revuelto2 .image {
+    padding-right: 30vh;
+    width: 1400px !important;
+    height: 496px !important;
+    transform: skewX(0deg) !important;
+}
+
+.revuelto2 {
+    margin-top: -42vh;
+}
+
+.revueltoText .face-4 {
+    margin-top: -20vh;
+    background-image: none;
+    height: 0px;
+    background-size: 0%;
+}
+
+.revueltoText {
+    margin-top: -140vh;
+    margin-left: 10vh;
+}
+
+.revueltoText img {
+    height: 12vh;
+    width: auto;
+}
+
+.models .footer {
+    margin-top: 110vh !important;
+}
+
+.revueltoText .links .left-links {
+    margin-top: 25vh;
+    margin-left: 5vh;
+}
+
+.revueltoText a {
+    padding-bottom: 2vh;
+    padding-right: 40vh;
+}
+
+.revueltoText p {
+    line-height: 28px;
+}
+
+.revueltoText .links .left-links {
+    margin-top: -1vh;
+    margin-top: 21vh;
+}
+
+.huracan .huracangrp .revuelto2 {
+    margin-top: 74vh;
+    margin-left: -115vh;
+}
+
+.huracan .huracangrp .revuelto {
+    margin-top: -42vh;
+    margin-left: -203vh;
+}
+
+.huracan .revuelto .parallelogram {
+    clip-path: polygon(45% 0%, 100% 0%, 60% 100%, 0% 100%);
+}
+
+.huracan .revuelto .image {
+    padding-right: 60vh;
+    width: 1500px !important;
+    height: 396px !important;
+}
+
+.huracan .revueltoText {
+    margin-left: 100vh;
+    margin-top: -160vh;
+}
+
+.huracan .revueltoText img {
+    height: 9vh;
+}
+
+.huracan .revueltoText p {
+    line-height: 28px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    border: none;
+    width: 40vh;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(212, 207, 207);
+    padding-bottom: 10px;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.36s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.urus {
+    margin-top: 80vh;
+}
+
+.urus .revuelto2 .parallelogram {
+    margin-left: 120vh !important;
+    width: 2050px !important;
+    clip-path: polygon(55% 0%, 100% 0%, 100% 100%, 20% 100%);
+}
+
+.urus .revuelto2 .image {
+    padding-right: 0vh;
+    margin-left: 65vh;
+    width: 1600px !important;
+    height: 620px !important;
+    transform: skewX(0deg) !important;
+}
+
+.urus .revueltoText {
+    margin-top: 0vh;
+    margin-top: -103vh;
+    margin-left: 1vh;
+}
+
+.limited {
+    margin-top: 154vh;
+    margin-left: -10vh;
+}
+
+.limited .head {
+    font-size: 29px;
+    font-weight: 700;
+    padding-bottom: 2vh;
+}
+
+.limited .img5 .parallelogram-container {
+    height: 960px;
+    margin-top: -25vh;
+    margin-left: -93vh;
+}
+
+.limited .img5 .parallelogram {
+    width: 1480px !important;
+    clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+}
+
+.limited .img5 .image {
+    padding-left: 30vh;
+    width: 1460px !important;
+    height: 446px !important;
+    transform: skewX(0deg) !important;
+}
+
+.limited .img4 .parallelogram-container {
+    height: 960px;
+    margin-top: 15vh;
+
+}
+
+.limited .img4 .parallelogram {
+    margin-left: 58vh;
+    width: 1080px !important;
+    clip-path: polygon(55% 0%, 100% 0%, 33% 100%, 0% 100%);
+}
+
+.limited .img4 .image {
+    padding-left: 30vh;
+    width: 1160px !important;
+    height: 360px !important;
+    transform: skewX(0deg) !important;
+}
+
+.models .footer {
+    margin-top: -56vh !important;
+}
+
+.concept .revueltoText {
+    margin-top: -252vh;
+    margin-left: 63vh;
+}
+
+.concept .img5 .parallelogram-container {
+    height: 960px;
+    margin-top: -3vh;
+    margin-left: -70vh;
+}
+
+.concept .img5 .parallelogram {
+    width: 1480px !important;
+    clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 100%);
+}
+
+.concept .img5 .image {
+    padding-left: 19vh;
+    width: 1460px !important;
+    height: 546px !important;
+    transform: skewX(0deg) !important;
+}
+
+.concept .img4 .parallelogram-container {
+    height: 960px;
+    margin-top: 7vh;
+
+}
+
+.concept .img4 .parallelogram {
+    margin-left: 96vh;
+    width: 1148px !important;
+    clip-path: polygon(15% 0%, 100% 0%, 35% 100%, 0% 100%);
+}
+
+.concept .img4 .image {
+    padding-left: 20vh;
+    width: 1160px !important;
+    height: 520px !important;
+    transform: skewX(0deg) !important;
+}
+
+.sideText {
+    margin-left: -25vh;
+    margin-top: 22vh;
+}
+
+.Text1 {
+    font-size: 14px;
+    color: white;
+    margin-top: -12vh;
+    font-weight: 500;
+    letter-spacing: -0.42px;
+    margin-left: 153vh;
+}
+
+.Text2 {
+    font-size: 36px;
+    letter-spacing: -0.72px;
+    font-weight: 300;
+    font-family: "roboto thin";
+    color: white;
+    margin-left: 153vh;
+    margin-top: -5.5vh;
+}
+
+.modelface-1 .nextIcon {
+    /* margin-top: 20vh; */
+    margin-left: 141vh;
+    margin-top: -o.5vh;
+}

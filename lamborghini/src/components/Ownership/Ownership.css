@@ -1,0 +1,187 @@
+.ownership .beyondface-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./lamborghini/gate_ownership_header_01.jpg');
+    height: 92vh;
+    width: auto;
+    background-size: cover;
+    margin-top: -5vh;
+}
+
+.ownership .pathText {
+    padding-top: 0.5vh;
+    width: 23vh;
+}
+
+.parallelogram-container {
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    height: 790px;
+    margin-left: -130vh;
+}
+
+
+.parallelogram {
+    position: relative;
+    width: 1900px !important;
+    height: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 70% 100%, 0% 100%);
+}
+
+.image {
+    margin-left: 26vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1900px !important;
+    height: 690px !important;
+    object-fit: cover;
+    transform: skewX(0deg) !important;
+}
+
+.ownership .head {
+    margin-left: 30vh;
+    font-size: 29px;
+    margin-top: 35vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+
+.ownership .face-8 p {
+    margin-top: 2vh;
+    margin-left: 30vh;
+    line-height: 28px;
+    text-decoration: none solid rgb(32, 32, 32);
+    font-size: 16px;
+    color: rgb(89, 88, 88);
+}
+
+.ownership .face-8 .left-links a {
+    color: black;
+    padding: 18px 0px 15px;
+    padding-right: 14.4vh;
+    text-align: left;
+}
+
+.ownership .face-8 .links {
+    margin-top: 25vh;
+    margin-left: 25vh;
+}
+
+
+.ownership .face-4 {
+    margin-top: -20vh;
+    background-image: none;
+    height: 0px;
+    background-size: 0%;
+}
+
+.ownership .face-4 .links a::before {
+    width: 30vh;
+    height: 2px;
+}
+
+.nextgrp {
+    margin-top: -7vh;
+}
+
+.nextgrp .parallelogram-container {
+    height: 790px;
+    margin-left: -80vh;
+}
+
+.nextgrp .parallelogram {
+    width: 1400px !important;
+    clip-path: polygon(46% 0%, 100% 0%, 54% 100%, 0% 100%);
+}
+
+.nextgrp .image {
+    top: 0;
+    left: 0;
+    width: 1200px !important;
+    height: 550px !important;
+    transform: skewX(0deg) !important;
+}
+
+.nextgrp .head {
+    margin-top: 2vh;
+    margin-left: -0vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.nextgrp p {
+    margin-left: -0vh !important;
+}
+
+.nextgrp .left-links {
+    margin-left: -25vh;
+}
+
+.nextgrpapp {
+    margin-top: -70vh;
+    margin-left: 27vh;
+}
+
+.nextgrpapp .parallelogram-container {
+    height: 500px;
+    margin-left: -80vh;
+}
+
+.nextgrpapp .parallelogram {
+    width: 1000px !important;
+    clip-path: polygon(46% 0%, 100% 0%, 59% 100%, 0% 100%);
+}
+
+.nextgrpapp .image {
+    width: 810px !important;
+    height: 350px !important;
+    transform: skewX(0deg) !important;
+}
+
+.classics {
+    margin-top: -65vh;
+    margin-left: 15vh;
+}
+
+.classics .head {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lastgrp .img5 .parallelogram-container {
+    height: 960px;
+    margin-left: -50vh;
+}
+
+.lastgrp .img5 .parallelogram {
+    width: 1200px !important;
+    clip-path: polygon(40% 0%, 100% 0%, 60% 100%, 0% 100%);
+}
+
+.lastgrp .img5 .image {
+    padding-right: 30vh;
+    width: 1310px !important;
+    height: 596px !important;
+    transform: skewX(0deg) !important;
+}
+
+.lastgrp .img4 .parallelogram-container {
+    height: 960px;
+    margin-top: 15vh;
+}
+
+.lastgrp .img4 .parallelogram {
+    margin-left: 72vh;
+    width: 1200px !important;
+    clip-path: polygon(45% 0%, 100% 0%, 60% 100%, 0% 100%);
+}
+
+.lastgrp .img4 .image {
+    padding-right: 30vh;
+    width: 1310px !important;
+    height: 596px !important;
+    transform: skewX(0deg) !important;
+}
+
+.ownership .footer {
+    margin-top: -52.3vh;
+}

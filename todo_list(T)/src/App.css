@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 100%;
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  background: #26232C;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  color: #45a049;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.headText {
+  margin-top: 20px;
+  text-align: center;
+  color: #7DD180;
+  text-shadow: 0px 2px #231C31;
+}
+
+.input {
+  height: 8vh;
+  width: 80vh;
+  background-color: gray;
+  color: white;
+  text-align: left;
+  font-size: 4vh;
+  border: none;
+  padding-left: 50px;
+  border: 2px solid #26232C;
+}
+
+.notactive {
+  padding: 10px;
+  list-style-type: none;
+  width: 80vh;
+  background-color: #45a049;
+  color: white;
+  font-size: 4vh;
+  text-align: left;
+  padding-left: 50px;
+  border: 2px solid #26232C;
+}
+
+.normal {
+  padding: 10px;
+  list-style-type: none;
+  width: 80vh;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  font-size: 4vh;
+  text-align: left;
+  padding-left: 50px;
+  border: 2px solid #26232C;
+}
+
+.deleteIcon {
+  float: right;
+  margin-top: 0.5vh;
+}
+
+.deleteIcon:hover {
+  cursor: pointer;
+}
+
+.doneicon {
+  float: right;
+  margin-right: 4vh;
+  margin-top: 0.5vh;
+}
+
+.doneicon:hover {
+  cursor: pointer;
+}

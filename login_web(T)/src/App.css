@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Vibur', cursive;
+  font-family: 'Abel', sans-serif;
+  opacity: .95;
+}
+
+form {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+  padding: 2%;
+  background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+  margin-top: 10%;
+}
+
+h2 {
+  font-size: 250%;
+  font-family: 'Playfair Display', serif;
+  color: #3e403f;
+  text-align: center;
+}
+.input-geids{
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.icon{
+  padding-right: 1vh;
+}
+.input-pass{
+  align-items: center;
+  justify-content: center;
+  margin-top: -8vh;
+}
+.input-id{
+  width: 30.5vh;
+}
+.input-password{
+  width: 30.5vh;
+  margin-right: 3vh;
+}
+.text{
+  position: absolute;
+  font-size: 11.5px;
+  margin-left: 25vh;
+  color: grey;
+  font-family: initial;
+}
+.text:hover{
+  cursor: pointer;
+}
+button{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  margin-top: 7vh;
+  width: 100%;
+  background-color: white;
+}
+
+button:hover {
+  background-color: rgb(205, 205, 205);
+
+}
+.nevubar{
+  background-color: #FFE6FA;
+  height: 10vh;
+}
+#navbtn{
+  width: 15vh;
+  margin-top: 2vh;
+  text-decoration: none !important;
+}
+#stylebtn{
+  text-decoration: none;
+}

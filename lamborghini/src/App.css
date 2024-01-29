@@ -1,0 +1,682 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  background-color: #181818;
+  color: #fff;
+  padding: 8px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logoimg {
+  margin-top: 2vh;
+  width: 6rem;
+  cursor: pointer;
+  height: auto;
+  padding-left: 5vh;
+  padding-bottom: 1vh;
+}
+
+.navbar .links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .left-links {
+  margin-top: 2.3vh;
+  display: flex;
+  float: left;
+  margin-left: 5vh;
+}
+
+.navbar .right-links {
+  margin-top: 2.3vh;
+  display: flex;
+  float: right;
+  margin-left: 60vh;
+}
+
+.navbar .links p {
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  margin-right: 20px;
+  position: relative;
+  transition: color 0.3s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar .links p:hover {
+  color: #ffffff;
+}
+
+.navbar .links p::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  bottom: -2px;
+  left: 0;
+  transition: transform 0.3s;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.navbar .links p:hover::before {
+  transform: scaleX(1);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.left-links {
+  float: left;
+  margin-left: 5vh;
+}
+
+.right-links {
+  float: right;
+  margin-left: 55vh;
+}
+
+.links a {
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5vh;
+  margin-right: 20px;
+  position: relative;
+  transition: color 0.3s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.links a:hover {
+  color: #ffffff;
+}
+
+.links a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  bottom: -2px;
+  left: 0;
+  transition: transform 0.3s;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.links a:hover::before {
+  transform: scaleX(1);
+}
+
+.icon1 {
+  font-size: small;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5vh;
+  margin-right: 27px;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.offcanvas {
+  margin-top: 14vh;
+}
+
+.offcanvas-title {
+  color: #000;
+  padding-top: 2vh;
+  padding-left: 3vh;
+}
+
+#close {
+  margin-right: 2vh;
+  margin-top: 1vh;
+}
+
+.canvasline {
+  background-color: #000;
+  height: 1px;
+  border: none;
+  width: 100%;
+}
+
+.offcanvas-body img {
+  height: 6vh;
+  margin-top: 2vh;
+  margin-left: 2v1;
+}
+
+.offcanvas-body .textField1 {
+  display: flex;
+}
+
+.offcanvas-body .textField1 p {
+  color: #5f5d5d;
+  line-height: 3.5vh;
+  font-size: 17px;
+  margin-top: 1vh;
+  margin-left: 2vh;
+}
+
+.canvas-btn {
+  width: 100%;
+  border: 1px solid rgb(216, 215, 215);
+  text-align: center;
+  color: #464646;
+  height: 8vh;
+  background-color: transparent;
+  margin-top: 2vh;
+}
+
+.canvas-btn:hover {
+  border: 1px solid black;
+}
+
+.bottom {
+  border-top: 1px solid rgb(152, 151, 151);
+  height: 30vh;
+}
+
+.line .bottomline {
+  background-color: #000;
+  height: 2px;
+  border: none;
+  width: 100%;
+  margin-top: -12vh;
+}
+
+.bottom input {
+  height: 8vh;
+  width: 85%;
+  font-size: 18px;
+  border: 1px solid rgb(152, 151, 151);
+}
+
+.bottom p {
+  color: black;
+  margin-top: 1vh;
+  padding-right: 1vh;
+  padding-left: 1vh;
+  cursor: pointer;
+}
+
+.search {
+  background-color: #0c0c0c;
+  margin-top: 13vh;
+  width: 98.9%;
+  height: 89vh;
+  padding-top: 3vh;
+}
+
+.closer {
+  font-size: 20px;
+  padding-right: 14vh;
+}
+
+.search .closer .close-btn {
+  font-size: xx-large;
+  margin-left: 2vh;
+  cursor: pointer;
+}
+
+.search .offcanvas-header h3 {
+  margin-left: 17vh;
+  font-size: 5vh;
+}
+
+.search .textHead2 {
+  margin-left: 1vh;
+  line-height: 15vh;
+  font-size: 15vh;
+}
+
+.search Input {
+  margin-top: 20vh;
+  height: auto;
+  width: 130vh;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  border-bottom: 1px solid rgb(215, 212, 212);
+}
+
+.inputs {
+  margin-left: 17vh;
+}
+
+.inputs p {
+  margin-left: 120vh;
+  margin-top: -5vh;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.face-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./lamborghini/us_market_cover.jpg');
+  height: 92vh;
+  width: auto;
+  background-size: cover;
+  margin-top: -5vh;
+}
+
+.face-1text {
+  margin-left: 15vh;
+}
+
+.textHead {
+  padding-top: 19vh;
+  color: #fff;
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.textHead2 {
+  color: #fff;
+  font-size: 12vh;
+  margin-top: 0vh;
+  margin-left: -1vh;
+  line-height: 11vh;
+  font-weight: 700;
+}
+
+.nextIcon {
+  font-size: 10vh;
+  color: #fff;
+  transition: 0.3s !important;
+}
+
+.nextIcon:hover {
+  color: rgb(60, 57, 57)
+}
+
+.face-2 {
+  background-color: #000;
+  height: 6vh;
+  /* width: auto; */
+}
+
+.btns {
+  margin-top: 100vh;
+  background-color: #000;
+}
+
+.face-2text {
+  color: #fff;
+  font-size: 13vh;
+  margin-left: -1vh;
+  margin-top: -78vh;
+}
+
+.text2 {
+  padding-bottom: 26vh;
+  margin-left: 15vh;
+  color: #fff;
+
+}
+
+.headT {
+  margin-top: -50vh;
+  color: #fff;
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+.next,
+.prev {
+  height: 7vh;
+  width: auto;
+  opacity: 60%;
+  cursor: pointer;
+  margin-top: 21vh;
+}
+
+.next {
+  margin-left: 15vh;
+}
+
+.prev {
+  margin-right: 175vh;
+}
+
+.explore {
+  height: 7vh;
+  width: auto;
+  cursor: pointer;
+  margin-left: 15vh;
+  margin-top: 67vh;
+  color: 'action';
+  background-color: #fff;
+  border-radius: 100%;
+  opacity: 80%;
+}
+
+.model {
+  height: 7vh;
+  width: auto;
+  margin-left: 16vh;
+  margin-top: 12vh;
+  color: 'action';
+  border-radius: 100%;
+  opacity: 100%;
+}
+
+.exploreText {
+  height: 7vh;
+  width: auto;
+  margin-left: 24vh;
+  margin-top: 67vh;
+  color: 'action';
+  border-radius: 100%;
+  opacity: 100%;
+  font-size: 3vh;
+  font-family: "calibari";
+  text-align: left;
+}
+
+.face-4 {
+  background-image: url('./lamborghini/revuelto_home.jpg');
+  height: 75vh;
+  width: 100%;
+  background-size: cover;
+  margin-top: -5vh;
+}
+
+.face-4text {
+  margin-left: 15vh;
+}
+
+.face-4textHead {
+  padding-top: 19vh;
+  color: #181818;
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.face-4textHead2 {
+  color: #181818;
+  font-size: 12vh;
+  margin-top: 0vh;
+  margin-left: -1vh;
+  line-height: 11vh;
+  font-weight: 700;
+}
+
+.face-4nextIcon {
+  font-size: 10vh;
+  color: #000;
+  transition: 0.3s !important;
+  border-radius: 100%;
+  border: none;
+  margin-top: 2vh;
+}
+
+.face-4nextIcon:hover {
+  color: #4c4b4b;
+}
+
+.face-4 .links {
+  display: flex;
+  align-items: center;
+  margin-left: -5vh;
+  margin-top: 4vh;
+}
+
+.face-4 .left-links {
+  float: left;
+}
+
+.face-4 .links a {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  color: #535353;
+  font-size: 2.5vh;
+  position: relative;
+  transition: color 0.3s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.face-4 .links a:hover {
+  color: #000;
+}
+
+.face-4 .links a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  bottom: -2px;
+  left: 0;
+  transition: transform 0.3s;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.face-4 .links a:hover::before {
+  transform: scaleX(1);
+}
+
+.face-5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./lamborghini/533702.jpg');
+  height: 90vh;
+  width: auto;
+  background-size: cover;
+  margin-top: -5vh;
+  margin-top: 8vh;
+}
+
+.face-5 .textHead {
+  padding-top: 25vh;
+}
+
+.face-5 .nextIcon {
+  margin-top: 2vh;
+  margin-left: -1vh;
+}
+
+.face-5 .textHead2 {
+  margin-top: 2vh;
+}
+
+.face-6 .textHead,
+.face-6 .textHead2 {
+  color: #000;
+}
+
+.face-6 .textHead2 {
+  font-size: 13vh;
+}
+
+.face-6 .textHead {
+  margin-top: -7svh;
+}
+
+.face6img {
+  height: auto;
+  width: 176vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 8vh;
+}
+
+.face-7 {
+  margin-left: 15vh;
+}
+
+.face-7 .head {
+  margin-top: 7vh;
+  font-weight: bold;
+  font-size: 3vh;
+  font-family: "calibary";
+  font-weight: bold;
+  font-size: 3vh;
+  font-family: "calibary";
+}
+
+.face-7 button {
+  border: none;
+  cursor: pointer;
+  transition: 0.6s ease;
+  margin-top: -10vh;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.face-7 button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.face-7 h2 {
+  margin-top: 3vh;
+  font-weight: bold;
+  color: #000;
+}
+
+.face-7 .sub {
+  margin-top: 3vh;
+}
+
+.face-7 .readmore {
+  height: 8vh;
+  width: 26vh;
+  margin-left: 150vh;
+  margin-top: -22vh;
+  position: absolute;
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+.face-8 {
+  margin-left: 15vh;
+}
+
+.face-8 img {
+  height: 40vh;
+  width: auto;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.face-8 .head {
+  padding-top: 3vh;
+  font-size: 18px;
+  font-family: "ROBOTO";
+  color: #202020;
+  margin-left: -13vh;
+
+}
+
+.face-8 h2 {
+  margin-left: -13vh;
+  margin-top: 2vh;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.face-8 button {
+  height: 8vh;
+  width: 26vh;
+  margin-left: -13vh;
+  margin-top: 3.6vh;
+  position: absolute;
+  border: 1px solid black;
+  background-color: transparent;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+.face-8 button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.face-8 .seeall {
+  height: 7vh;
+  width: 30vh;
+  margin-top: 10vh;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-stretch: 100%;
+  text-decoration: none solid rgb(32, 32, 32);
+  text-align: center;
+  margin-left: 32.5%;
+  background-color: #000;
+  color: #fff;
+}
+
+.face-8 .seeall.seeall:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.footer {
+  background-color: #181818;
+  height: 56vh;
+  margin-top: 33vh;
+}
+
+.footer .links {
+  padding-top: 8vh;
+  margin-left: 3vh;
+  line-height: 5vh;
+}
+
+.footer .icon {
+  margin-left: 130vh;
+  margin-top: -9.8vh;
+}
+
+.footer .icon a {
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0;
+}
+
+
+.footer .text {
+  font-size: 14px;
+  margin-left: 9vh;
+  color: #fff;
+  margin-top: 10vh;
+}
+
+.subtext {
+  margin-top: 5vh;
+  margin-left: 9vh;
+}
+
+.footer .sub {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: -1vh
+}

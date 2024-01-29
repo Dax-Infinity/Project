@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  height: 100vh;
+  background: linear-gradient(120deg, #007bff, #d0314c) !important;
+
+}
+
+.create {
+  margin-left: 95vh;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 29vw;
+  background: #f2f1f1;
+  border-radius: 40px;
+  border: 2px solid rgb(184, 183, 183);
+}
+
+.center h1 {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid silver;
+}
+
+.center form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+form .txt_field {
+  position: relative;
+  margin: 30px 0;
+}
+
+.txt_field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+
+.txt_field span::before {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  background: #2691d9;
+  transition: .5s;
+}
+
+.txt_field input:focus~label,
+.txt_field input:valid~label {
+  top: -5px;
+  color: #2691d9;
+}
+
+.txt_field input:focus~span::before,
+.txt_field input:Valid~span::before {
+  width: 100%;
+}
+
+.pass {
+  margin: -5px 0 20px 5px;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+
+.pass:hover {
+  text-decoration: underline;
+}
+
+
+.signup_link {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+}
+
+.signup_link span {
+  color: #2691d9;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup_link p:hover {
+  text-decoration: underline;
+}
+
+.HomeAbout {
+  width: 100vw;
+  height: 25vh;
+}
+
+.inputField {
+  width: 47vh !important;
+}
+
+.inputField2 {
+  width: 47vh !important;
+  margin-left: 1vh !important;
+  margin-top: 2vh !important;
+}
+
+
+.center .btn {
+  cursor: pointer;
+  width: 100%;
+  background-color: #007bff;
+  height: 5vh;
+  border: none;
+  border-radius: 1vh;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.textform {
+  margin-top: 10vh;
+}
+
+.textform .container {
+  max-width: 570px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.textform h1 {
+  text-align: center;
+  color: #45a049;
+}
+
+.textform button {
+  margin-right: 2vh;
+  text-align: center;
+  width: 14vh;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 3vh;
+}
+
+.textform button:hover {
+  background-color: #45a049;
+}
+
+.textform .input-Size {
+  margin-top: 2vh !important;
+  width: 250px;
+}
+
+.textform #lable {
+  margin-top: 2.3vh;
+  color: grey;
+}
+
+.textform .deleteBtn:hover {
+  cursor: pointer;
+}
+
+.textform .errText {
+  color: red;
+  font-size: smaller;
+}
+
+.textform .btngrp {
+  float: right;
+}
+
+.textform .company-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  max-width: 300px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textform .company-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #45a049;
+  margin-bottom: 10px;
+}
+
+.textform .location,
+.textform .country,
+.textform .time,
+.textform .type {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.textform .type {
+  color: #000;
+}
